@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adidas Official Website | adidas US</title>
+    <link rel="stylesheet" href="adidas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@100&family=Titillium+Web:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-1">
+        <select>
+            <option>GET A $20 BONUS REWARD</option>
+        </select>
+    </div>
+    <div class="nav-2">
+        <div class="logo">
+            <img src="https://imgs.search.brave.com/Jab2HR-6xwgastwhskttmx1FotSSNuvXn-FajJi494w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/d2lrLmNvbS9jb250/ZW50L3VwbG9hZHMv/aW1hZ2VzL2FkaWRh/cy1uZXctMjAyMjUz/MjYuanBn">
+        </div>
+        <div class="nav-ops">
+            <p class="bold">Men</p>
+            <p class="bold">Women</p>
+            <p class="bold">Kids</p>
+            <p>Back To School</p>
+            <p>Sale</p>
+            <p>3 Stripe Life</p>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="user-icon icon">
+            <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="heart icon">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="handbag icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </div>
+    <div class="hero-section">
+        <div class="hero-content">
+            <div class="heading">
+            <h2 class="bold">BEFORE THE BELL</h2>
+            <P>Show up and show out with Back to School looks that have style in every step.</P>
+            </div>
+             <div class="hero-buttons btn">
+                <button>SHOP MEN
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <div class="long-button btn">
+                <button >SHOP WOMEN
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                 </div>
+                <button>SHOP KIDS<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+</div>
+    <div class="yeezysection">
+        <div class="yeezycontent">
+       <h2>YEEZY</h2>
+       <p>AVAILABLE ON CONFIRMED. DOWNLOAD, REGISTER, PARTICIPATE 
+        A PORTION OF THE SALE OF THESE ITEMS WILL BE DONATED IN SUPPORT OF THE FIGHT AGAINST DISCRIMINATION, HATE, RACISM, AND ANTISEMITISM.</p>
+        <br><button>SHOP NOW</button><br>
+        <div class="newbutton">
+        <button>READ THE PRESS RELEASE</button>  
+    </div>
+       </div> 
+    </div>
+    <div class="img-section">  
+        <div class="img1">
+            
+            <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/8255caf9c4e44bdb8dec22e0b6a56bf6_9366/cloudfoam-pure-shoes.jpg">
+            <button>SHOP NOW</button>
+        </div>
+        <div class="img1">
+            <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/646a2ea3313940cc84c0af1c0101a534_9366/train-essentials-piqu%C3%A9-3-stripes-training-shorts.jpg">
+            <button>SHOP NOW</button>
+        </div>
+        <div class="img1">
+            <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/4510f6389d484e87b1e4a16e1a53cbef_9366/gazelle-shoes.jpg">
+            <button>SHOP NOW</button>
+        </div>
+        <div class="img1">
+            <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/c5b8648ff75149a6a442e85ab558e800_9366/messi-10-inter-miami-cf-22-23-home-jersey.jpg">
+            <button>SHOP NOW</button>
+        </div>
+    </div>
+    <div class="newarrivals-section">
+        <div class="newarrivals-head">
+            <div class="newarrivals-ops">
+                <div class="bold">
+                <span><i class="fa-solid fa-arrow-right"></i> New Arrivals</span>
+                </div>
+                <span>What's Trending</span>
+                <span>Member Exclusives</span>
+            </div>
+            <div class="view-all btn">
+                <button>VIEW ALL</button>
+                <div class="round-btn">
+                <button><i class="fa-solid fa-angle-left fa-2xl"></i></button>
+                <button><i class="fa-solid fa-angle-right fa-2xl"></i></i></button>
+                </div>
+            </div>
+            </div>
+           <div class="newarrivals-imgsection">
+            <div class="img-1">
+                <i class="fa-regular fa-heart fa-xl"></i>
+               <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/c5b8648ff75149a6a442e85ab558e800_9366/Messi_10_Inter_Miami_CF_22-23_Home_Jersey_Pink_JE9701_02_laydown.jpg">
+                <p>Messi #10 Inter Miami CF 22/23 Home Jersey</p>
+                <span>Men's Soccer</span>
+                <p>Pre Order</p>
+            </div>
+            <div class="img-1">
+                <i class="fa-regular fa-heart fa-xl"></i>
+               <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/ef53d314449c45abb07ba9fac0033052_9366/Ultraboost_Light_Running_Shoes_White_IE1689_HM1.jpg">
+                <p>Ultraboost 1.0 Shoes</p>
+                <span>Men's Sportswear</span>
+                <p>best seller</p>
+            </div>
+            <div class="img-1">
+                <i class="fa-regular fa-heart fa-xl"></i>
+                <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/4e57e87d3ff040abbc7ed0a702a8a3f7_9366/Ultraboost_1.0_Shoes_Grey_IF5273_01_standard.jpg">
+                 <p>Ultraboost 1.0 Shoes</p>
+                 <span>Men's Sportswear</span>
+                 <p>best seller</p>
+             </div>
+             <div class="img-1">
+                <i class="fa-regular fa-heart fa-xl"></i>
+                <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/98de2ed39f5548a4802e46e520534e83_9366/Ultraboost_Light_Running_Shoes_White_IE3063_01_standard.jpg">
+                 <p>Ultraboost Light Running Shoes</p>
+                 <span>Womeen's Running</span>
+                 <p>best seller</p>
+             </div>
+           </div>
+        </div> 
+    
+    <div class="imgsection3">
+        <div class="image1">
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enUS/Images/originals-fw23-adicolor-tk1-global-launch-glp-kids-tc-v1-1_tcm221-1056616.jpg">
+        <br><span class="bold">SWITCHING BETWEEN YOU</span><br>
+        <p> A collection that speaks to all sides of you. All new adicolor.</p><br><br>
+        <button>SHOP NOW</button>
+        </div>
+        <div class="image1">
+            <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enUS/Images/ss23-womens-running-onsite-teaser-card_tcm221-1056612.jpg">
+            <br><span class="bold">SUMMER—AT YOUR OWN PACE</span><br>
+            <p> Step out for the sunny season in women’s running gear.</p><br><br>
+            <button>SHOP NOW</button>
+            </div>
+            <div class="image1">
+                <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enUS/Images/fw23-trae-3-IE9303-launch-hp-v2-tc_tcm221-1052913.jpg">
+                <br><span class="bold">JUST DROPPED TRAE 3</span><br>
+                <p> Engineered with perormance technology unlike any shoe on court</p><br><br>
+                <button>SHOP NOW</button>
+                </div>
+                <div class="image1">
+                    <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enUS/Images/hc184-fw23-bts-aug-collegiate-onsite-hp-tcc-product_tcm221-1051392.jpg">
+                    <br><span class="bold">BACK TO SCHOOL STYLES</span><br>
+                    <p> Kick-start your fall wardrobe with tees, shorts and sneakers to mix and match.</p><br><br>
+                    <button>SHOP NOW</button>
+                    </div>
+    </div>
+    
+    <div class="popular">
+        <div class="popular-head">
+            <h2>Popular Right Now</h2>
+        </div>
+        <div class="popular-content">
+            <div class="content1">
+                <span>ultraboost</span>
+                <span>cleats</span>
+            </div>
+            <div class="content1">
+                <span>nmd</span>
+                <span>stan smith</span>
+            </div>
+            <div class="content1">
+                <span>backpacks</span>
+                <span>samba</span>
+            </div>
+        </div>
+        <div class="notesection">
+            <div class="note1">
+                <div class="bold">
+                <span>Stories, style, and sporting goods at adidas, since 1949</span></div>
+                <br><br><p>Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. adidas is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.<br><br>
+
+                    adidas is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sporting goods, style and clothing that match the athletic needs, while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And we think about the impact we have on our world.</p>
+                
+            </div>
+            <div class="note1">
+                <div class="bold">
+                <span>Workout clothes, for any sport</span></div>
+                <br><br><p>adidas designs for athletes of all kinds. Creators who love to change the game. People who challenge conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes who play just as hard as the men. From low to high support. Maximum comfort. We design, innovate and iterate. We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating new streetwear essentials. From NMD and Ozweego to our Firebird tracksuits. From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages around the world.<br><br>
+
+                    Through our collections we blur the borders between high fashion and high performance. Like our adidas by Stella McCartney athletic clothing collection – designed to look the part inside and outside of the gym. Or some of our adidas Originals lifestyle pieces, that can be worn as sports apparel too. Our lives are constantly changing. Becoming more and more versatile. And adidas designs with that in mind.</p>    
+            </div>
+        </div>
+    </div>
+    <div class="secndlast">
+        <span>JOIN OUR ADICLUB & GET 15% OFF</span>
+        <button>SIGN UP FOR FREE
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+
+    
+</body>
+<footer>
+    <div class="footer1">
+        <div class="table1">
+            <ul>
+                <h3>PRODUCTS</h3>
+                <a href="#">Shoes</a>
+                    <a href="#">Clothing</a> 
+                    <a href="#">Accessories</a> 
+                    <a href="#">Gift Cards</a> 
+                    <a href="#">New Arrivals</a> 
+                    <a href="#">Best Sellers</a> 
+                    <a href="#">Release Dates</a> 
+                    <a href="#">Sale</a>
+            </ul>
+        </div>
+        <div class="table1">
+            <ul>
+                <h3>SPORTS</h3>
+                
+               <a href="#"> Soccer</a>
+               <a href="#"> Running</a>
+                <a href="#">  Basketball</a>
+                <a href="#">  Football</a>
+                <a href="#">  Outdoor</a>
+                <a href="#">  Golf</a>
+                <a href="#"> Baseball</a>
+                <a href="#"> Tennis</a>
+                <a href="#"> Skateboarding</a>
+                <a href="#"> Training</a>
+        </div>
+        <div class="table1">
+            <ul>
+                <h3>COLLECTIONS</h3>
+                <a href="#">adicolor</a>
+                <a href="#">Ultraboost</a>
+                <a href="#"> NMD</a>
+            <a href="#">Forum</a>
+            <a href="#"> Superstar</a>
+            <a href="#">Running Shoes</a>
+            <a href="#">adilette</a>
+            <a href="#">Stan Smith</a>
+            <a href="#">adizero</a>
+            <a href="#">Tiro</a>
+            <a href="#">Cloudfoam Pure</a>
+            </ul>
+        </div>
+        <div class="table1">
+            <ul>
+                <h3>SUPPORT</h3>              
+                <a href="#">Help</a>
+                <a href="#"></a>Returns & Exchanges</a>
+                <a href="#"> Shipping</a>
+                <a href="#">Order Tracker</a>
+                <a href="#">Store Locator</a>
+                <a href="#">Size Charts</a>
+                <a href="#">Gift Card Balance</a>
+                <a href="#">How to Clean Shoes</a>
+                <a href="#">Running Shoe Finder</a>
+                <a href="#">Bra Fit Guide</a>
+                <a href="#">Sports Bra Finder</a>
+                <a href="#">Breathing for Running</a>
+                <a href="#">Promotions</a>
+ 
+            </ul>
+        </div>
+        <div class="table1">
+            <ul>
+                <h3>COMPANY INFO</h3>
+                <a href="#">About Us</a>
+                <a href="#">Student Discount</a>
+                <a href="#">Military & Healthcare Discount</a>
+                <a href="#">adidas Stories</a>
+                <a href="#">adidas Apps</a>
+                <a href="#">Sustainability</a>
+                <a href="#">adiClub</a>
+                <a href="#">Affiliates</a>
+                <a href="#">Press</a>
+                <a href="#">Careers</a>
+                <a href="#">California Transparency in Supply Chains Act</a>
+                <a href="#">Responsible Disclosure</a>
+                <a href="#">Transparency in Coverage</a>
+                <a href="#">Country Selector</a>
+              
+                
+            </ul>
+        </div>
+        <div class="table1">
+            <ul>
+                <h3>FOLLOW US</h3>
+                <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+            </ul>
+        </div>
+     
+    </div>
+    <div class="footer2">
+        <div class="footersection1">
+            <p> Your Privacy Choices</p>
+            <span>|</span>
+            <p>Privacy Policy</p>
+            <span>|</span>
+            <p>Terms And Conditions</p>
+        </div>
+        <div class="footersection2">
+            <p>© 2023 adidas America, Inc.</p>
+        </div>
+    </div>
+</footer>
+</html>
